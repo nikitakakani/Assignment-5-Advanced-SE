@@ -5,7 +5,8 @@ import random
 
 
 def main():
-    print("Welcome to Rock-Paper-Scissors!")
+    print("Hello! Welcome to Rock-Paper-Scissors!")
+    
    
   
 
