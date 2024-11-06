@@ -4,6 +4,7 @@ import random
 
 def explain_rules():
     print("Rules: Rock beats Scissors, Scissors beats Paper, Paper beats Rock.")
+    
 
 def get_computer_choice():
     return random.choice(["rock", "paper", "scissors"])
@@ -30,7 +31,7 @@ def get_player_choice():
 
 def determine_winner(player, computer):
     if player == computer:
-        return "It's a tie!"
+        return "It's a tie! Play again"
     elif (player == "rock" and computer == "scissors") or \
          (player == "scissors" and computer == "paper") or \
          (player == "paper" and computer == "rock"):
